@@ -99,8 +99,19 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
+.d-bloc{
+    color: #000000;
+}
+.d-bloc p{
+    font-size:1.2em;
+}
+
+.d-bloc li a {
+    color:#000000!important;
+    line-height: 2;
+}
+.d-bloc li a:hover{
+    text-decoration: underline;
 }
 
 .d-bloc button:hover {
@@ -133,7 +144,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -231,7 +242,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .6)!important;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -523,6 +534,7 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+    color: #000000!important;
 }
 
 .showScrollTop {
@@ -677,7 +689,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+#citation{
+    font-size: 18px;
+    font-style: italic;
 }
 
 .tight-width-whitespace {
@@ -701,7 +718,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 15px auto 20px auto;
 }
 
 h2 {
@@ -737,6 +754,9 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+.black{
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -775,12 +795,15 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+}
+.pst-rl{
+    position: relative;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
